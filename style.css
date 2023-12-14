@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Nunito:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+*{
+    font-family: 'Hedvig';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background-color: rgb(60, 57, 55);
+}
+
+ .clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content .heading{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: rgb(245, 245, 245);
+
+}
+
+.count-down {
+    display: flex;
+    justify-content: center;
+}
+/* 
+.box {
+    margin: 0 10px;
+}
+
+.box-3 {
+    margin: 0 10px;
+} */
+
+.clock-container .content .count-down{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.clock-container .content .count-down .box{
+    padding: 5px;
+    border: 1px solid #ffffff;
+    /* background-color: #948c8c; */
+    text-align: center;
+    border-radius: 10px;
+    flex: 1 1 20px;
+}
+
+.clock-container .content .count-down .box h3{
+    font-size: 30px;
+}
+
+.clock-container .content .count-down .box span{
+    color: rgb(229, 170, 99);
+}
+
+
+
+
+
+
+
